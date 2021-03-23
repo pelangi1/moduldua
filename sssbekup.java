@@ -20,14 +20,14 @@ public class lingkaran {
         switch (pilih){
             case 1:
                 System.out.println("\nMenghitung Luas");
-                System.out.print("Masukkan jari - jari(cm) :");
+                System.out.print("Masukkan jari - jari :");
                 r = pb.nextInt();
                 Luas = phi*r*r;
                 System.out.println("Hasil : "+Luas);
                 break;
             case 2:
                 System.out.println("\nMenghitung Keliling");
-                System.out.print("Masukkan jari - jari(cm) :");
+                System.out.print("Masukkan jari - jari :");
                 r = pb.nextInt();
                 keliling = 2*phi*r;
                 System.out.println("Hasil : "+keliling);
